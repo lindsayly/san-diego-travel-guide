@@ -8,6 +8,7 @@
       html {
         font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
       }
+      /*arranging original text and styled text in grid*/
       .unstyled {grid-area: left;}
       .styled {grid-area: right;}
       .wrapper {
@@ -16,8 +17,21 @@
         grid-template-areas: 'left right';
         gap: 2%;
       }
+      /*styling header*/
       .styled header {
         background-image: url('images/sanDiegoLandscape.jpg');
+        background-size: cover;
+        height: 15%;
+        color: #eb9973;
+      }
+      .styled h1 {
+        text-align: center;
+        padding-top: 10%;
+        margin-bottom: 0;
+        background-color: #2971a1;
+      }
+      .titleCaption {
+        background-color: #2971a1;
       }
     </style>
   </head>
@@ -58,7 +72,7 @@
       <section class="styled">
         <header>
           <h1>San Diego: A Travel Guide</h1>
-          <p>Visiting San Diego for the first time? Here are a few things to do to make the most of your trip.</p>
+          <p class="titleCaption">Visiting San Diego for the first time? Here are a few things to do to make the most of your trip.</p>
         </header>
         <!--section 1-->
         <h2>Art and Culture at Balboa Park</h2>
