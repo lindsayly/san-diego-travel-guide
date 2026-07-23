@@ -46,6 +46,7 @@
       .styled h1 {
         text-align: center;
         margin-bottom: 0;
+        padding-bottom: 5px;
         background-color: #194461;
       }
       p.titleCaption {
@@ -53,7 +54,7 @@
         margin: 0;
         padding: 2px;
         border: solid 1.5px #194461;
-        background-color: #ffffff;
+        background-color: #f9d9cd;
         text-align: center;
       }
       /*subheadings*/
@@ -62,13 +63,19 @@
         text-decoration: underline solid #194461 3px;
       }
       /*blockquote*/
-      .quote {
+      .quoteContainer {
         text-align: center;
         margin: 5px auto;
         font-size: 1.1rem;
-        width: 80%;
+        width: 75%;
         background-color: #194461;
         color: #f9d9cd;
+        padding-bottom: 10px;
+        border: solid 3px #f9d9cd;
+      }
+      .quote {
+        padding-top: 10px;
+        margin-bottom: 5px;
       }
       /*boat image*/
       img.boatsImg {
@@ -77,7 +84,7 @@
         max-width: 400px;
         float: right;
         margin-left: 10px;
-        border: double 3px #194461;
+        border: double 5px #194461;
       }
       /*hosted video*/
       .video {
@@ -141,8 +148,8 @@
         <h2>Beer and Wine for the 21+</h2>
         <p>Names like Stone Brewing, Ballast Point, and Green Flash put San Diego on the beer lover's map, right next to Belgium, Germany, and the United Kingdom. It's not easy to keep track of them all, but north of 150 breweries in San Diego turn out an ever-changing array of beer styles, available on countless taps at bars, restaurants, and tasting rooms in every corner of the county. San Diego's dry, sunny climate makes it a wine region, dotted with wineries that make for lovely outings to the rural towns and backcountry.</p>
         <!--quote-->
-        <div class="quote">
-          <blockquote>"San Diego is currently experiencing a craft spirits boom, with numerous kinds of liquor being handcrafted in the same quality-is-king fashion as the local beer."</blockquote>
+        <div class="quoteContainer">
+          <blockquote class="quote">"San Diego is currently experiencing a craft spirits boom, with numerous kinds of liquor being handcrafted in the same quality-is-king fashion as the local beer."</blockquote>
           <cite>-San Diego Tourism Authority</cite>
         </div>
         <!--section 3-->
