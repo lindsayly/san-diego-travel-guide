@@ -34,7 +34,7 @@
         margin: 0;
         list-style-type: square;
       }
-      /*styling header*/
+      /*header*/
       .styled header {
         background-image: url('images/hero.jpg');
         background-size: cover;
@@ -62,6 +62,10 @@
         color:#194461;
         text-decoration: underline solid #194461 3px;
       }
+      /*emphasizing key words*/
+      span.keywords {
+        font-weight: bold;
+      }
       /*blockquote*/
       .quoteContainer {
         text-align: center;
@@ -85,14 +89,14 @@
         margin-left: 10px;
         border: double 5px #194461;
       }
-      /*hosted video*/
+      /*video*/
       .video {
         display: flex;
         justify-content: center;
       }
       /*coronado beach image */
       img.coronadoImg {
-        width: 25%;
+        width: 35%;
         height: auto;
         max-width: 350px;
         float: left;
@@ -103,6 +107,7 @@
     </style>
   </head>
   <body>
+    <!--wrapper to arrange into grid-->
     <article class="wrapper">
       <!--unstyled original text-->
       <section class="unstyled">
@@ -143,7 +148,7 @@
         </header>
         <!--section 1-->
         <h2>Art and Culture Immersion at Balboa Park</h2>
-        <p>Balboa Park is San Diego's vast central public park. In addition to beautiful gardens, it's home to 17 museums and cultural institutions encompassing science, air and space, railroads, anthropology, natural history, and art—including a collection stocked with works from greats like Matisse, Monet, Dalí, and O'Keeffe. It offers immersive cultural experiences through their Japanese Friendship Garden, International Cottages, WorldBeat Center, and more.</p>
+        <p><span class="keywords">Balboa Park</span> is San Diego's vast central public park. In addition to beautiful gardens, it's home to 17 museums and cultural institutions encompassing science, air and space, railroads, anthropology, natural history, and art—including a collection stocked with works from greats like Matisse, Monet, Dalí, and O'Keeffe. It offers immersive cultural experiences through their Japanese Friendship Garden, International Cottages, WorldBeat Center, and more.</p>
         <!--unordered list of museums-->
         <p class="anteUL">Some of the most notable museums at Balboa Park include:</p>
         <ul class="list">
@@ -163,33 +168,35 @@
         </div>
         <!--section 3-->
         <h2>Boat Lover's Paradise</h2>
-        <!--image-->
+        <!--boats image-->
         <img src="images/boats.jpg" alt="Boats docked in downtown San Diego" class="boatsImg">
-        <p>The USS Midway Museum, an aircraft carrier that was the biggest ship in the world until 1955, is permanently docked in the downtown waterfront, home to 30 restored aircraft, and other exhibits. Just a few blocks away is the Maritime Museum of San Diego. Tour the tall-masted Star of India, the oldest active sailing ship in the world, which survived a cyclone in the Bay of Bengal, trapped in Alaska, and 21 trips around the globe. To see the whales, dolphins, seals, and sea lions that populate the coast, you can hop aboard a traditional whale-watching boat, or climb inside a much smaller craft used by Navy SEALs to get up close and personal with the marine mammals. The placid waters of Mission Bay are ideal year-round for learning to pilot small craft of every kind, from small sailboats to kayaks and SUPs.</p>
+        <p>The <span class="keywords">USS Midway Museum</span>, an aircraft carrier that was the biggest ship in the world until 1955, is permanently docked in the downtown waterfront, home to 30 restored aircraft, and other exhibits. Just a few blocks away is the Maritime Museum of San Diego. Tour the tall-masted Star of India, the oldest active sailing ship in the world, which survived a cyclone in the Bay of Bengal, trapped in Alaska, and 21 trips around the globe. To see the whales, dolphins, seals, and sea lions that populate the coast, you can hop aboard a traditional whale-watching boat, or climb inside a much smaller craft used by Navy SEALs to get up close and personal with the marine mammals. The placid waters of <span class="keywords">Mission Bay</span> are ideal year-round for learning to pilot small craft of every kind, from small sailboats to kayaks and SUPs.</p>
         <!--section 4-->
         <!--clear float-->
         <h2 style="clear:both;">High-Quality Cuisine</h2>
-        <p>Local chefs and restaurants have earned many of the highest food-world accolades and appeared on every food show on television, including numerous Top Chef appearances. Using ingredients fished from local waters, raised or grown on local farms, or carefully picked from far-flung regions abroad, San Diego chefs create top-notch food of every kind. You're bound to find the right restaurant with the right mood—and first rate eats—wherever you look. Let's not forget the profound influence that Baja plays in local cuisine. Cali-Baja cuisine is truly a San Diego original.</p>
+        <p>Local chefs and restaurants have earned many of the highest food-world accolades and appeared on every food show on television, including numerous Top Chef appearances. Using ingredients fished from local waters, raised or grown on local farms, or carefully picked from far-flung regions abroad, San Diego chefs create top-notch food of every kind. You're bound to find the right restaurant with the right mood—and first rate eats—wherever you look. Let's not forget the profound influence that Baja plays in local cuisine. <span class="keywords">Cali-Baja</span> cuisine is truly a San Diego original.</p>
         <!--embedded video in div-->
         <div class="video">  
           <iframe width="560" height="315" src="https://www.youtube.com/embed/YN18-2czx5Q?si=GS4OGGyyJoD-wvXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <!--section 5-->
         <h2>Unique Nature Experiences</h2>
-        <p>Endless sunshine and a mild climate naturally make San Diego one of the most biodiverse places in the United States. For good reason, the San Diego Zoo and the San Diego Zoo Safari Park are known over the world. The experts at Scripps Institution of Oceanography provide the public with a chance to see sea turtles, leopard sharks, moray eels, and 5,000 other sea creatures in dozens of different habitats. The Torrey Pines State Natural Reserve is just one of two places that stately, rare Torrey Pine trees naturally grow. And the Anza-Borrego Desert State Park is the largest state park in California.</p>
+        <p>Endless sunshine and a mild climate naturally make San Diego one of the most biodiverse places in the United States. For good reason, the <span class="keywords">San Diego Zoo</span> and the <span class="keywords">San Diego Zoo Safari Park</span> are known over the world. The experts at Scripps Institution of Oceanography provide the public with a chance to see sea turtles, leopard sharks, moray eels, and 5,000 other sea creatures in dozens of different habitats. The Torrey Pines State Natural Reserve is just one of two places that stately, rare Torrey Pine trees naturally grow. And the Anza-Borrego Desert State Park is the largest state park in California.</p>
         <!--section 6-->
         <h2>Have Fun Your Way</h2>
-        <p>Spring breakers know San Diego as a place to whoop it with the city's vibrant nightlife. Golfers know it as the home to the world-famous links of Torrey Pines. Those who meditate or revel in spiritual experience or luxury spas recognize San Diego as a global center of these relaxing, reinvigorating pursuits at places like the Self-Realization Fellowship Encinitas Temple or spas like SpaTerre at Kona Kai Resort & Spa, Willows Spa at Viejas Casino & Resort, and others. Whether you're looking for a crazy good time, or a blissful rejuvenating one, it's here, just waiting for your arrival.</p>
+        <p>Spring breakers know San Diego as a place to whoop it with the city's vibrant nightlife. Golfers know it as the home to the world-famous links of <span class="keywords">Torrey Pines</span>. Those who meditate or revel in spiritual experience or luxury spas recognize San Diego as a global center of these relaxing, reinvigorating pursuits at places like the Self-Realization Fellowship Encinitas Temple or spas like SpaTerre at Kona Kai Resort & Spa, Willows Spa at Viejas Casino & Resort, and others. Whether you're looking for a crazy good time, or a blissful rejuvenating one, it's here, just waiting for your arrival.</p>
         <!--section 7-->
         <h2>Choose Your Own Adventure</h2>
-        <p>San Diego's famous surf—consistently fun all year-round—is just the beginning. The ocean also offers the chance to snorkel face to face with gentle leopard sharks, drop in a line on a deep sea fishing trip, or strap on a scuba tank to experience the biodiversity of the Pacific coast. The rugged backcountry hides phenomenal granite for rock climbing, ample trails for hiking, mountain biking and running, and plenty of opportunities to get behind the wheel of an ATV. Cyclists love both the coastal roadways in eyeshot of the ocean as well as the winding country roads.</p>
+        <p>San Diego's famous <span class="keywords">surf</span>—consistently fun all year-round—is just the beginning. The ocean also offers the chance to snorkel face to face with gentle leopard sharks, drop in a line on a deep sea fishing trip, or strap on a scuba tank to experience the biodiversity of the Pacific coast. The rugged backcountry hides phenomenal granite for rock climbing, ample trails for hiking, mountain biking and running, and plenty of opportunities to get behind the wheel of an ATV. Cyclists love both the coastal roadways in eyeshot of the ocean as well as the winding country roads.</p>
         <!--section 8-->
         <h2>Coronado Island: Small-Town Vibes</h2>
+        <!--coronado beach image-->
         <img src="images/coronado.jpg" alt="Beach in front of Hotel del Coronado" class="coronadoImg">
-        <p>Coronado Island is an idyllic small town escape just minutes from downtown San Diego. Whether you reach it via the Coronado Ferry or the iconic Coronado Bridge, the resort island's hotels, restaurants, and beaches are a stone's throw from downtown San Diego. With one side facing the waterfront skyline and the other the Pacific, Coronado is blessed with both calm waters and fun waves. The Mica-rich sand's glittery appearance makes it recognized among the best beaches in the United States. The laid-back pace of life makes it perfect to explore via foot or bike.</p>
+        <p><span class="keywords">Coronado Island</span> is an idyllic small town escape just minutes from downtown San Diego. Whether you reach it via the Coronado Ferry or the iconic Coronado Bridge, the resort island's hotels, restaurants, and beaches are a stone's throw from downtown San Diego. With one side facing the waterfront skyline and the other the Pacific, Coronado is blessed with both calm waters and fun waves. The Mica-rich sand's glittery appearance makes it recognized among the best beaches in the United States. The laid-back pace of life makes it perfect to explore via foot or bike.</p>
       </section>
     </article>
     <footer>
+      <!--source in APA-->
       <p>Source: San Diego Tourism Authority. (n.d.). <em>San Diego Travel Guide for First-Time Visitors</em>. <a href="https://www.sandiego.org/article/san-diego-travel-guide-for-first-time-visitors" target="_blank">https://www.sandiego.org/article/san-diego-travel-guide-for-first-time-visitors</a></p>
     </footer>
   </body>
